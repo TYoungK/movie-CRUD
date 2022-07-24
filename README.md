@@ -46,7 +46,9 @@ python manage.py migrate
 `python manage.py runserver`<br>
 
 <br>
+
 ## 모델
+
 -Movie : 영화 기본 정보<br>
 -Video : Movie를 외래키로 가지며 1:N관계 <br><br>
 자세한 내용은 하단의 API 문서에서 볼 수 있습니다.
@@ -58,7 +60,9 @@ python manage.py migrate
 
 현재 디버그 모드로 설정되어 있으므로 서버를 실행 후  localhost:8000 으로 접속하면 DRF에서 제공하는 UI로 테스트해 볼 수 있습니다.
 <br><br>
+
 ## API Docs
+
 서버 실행 후 아래 url을 브라우저에서 접속하면 상세 내용과 모델 구성을 볼 수 있습니다.
 
 - localhost:8000/docs/swagger
